@@ -1,0 +1,32 @@
+html {
+    background-color: #6ad16a;
+    font-size: 20px;
+}
+
+h1 {
+    background: rgb(11, 2, 68);
+    padding: 10px;
+    border: 3px solid rgb(242, 242, 248);
+    color: white;
+    }
+h2 {
+    background: red;
+    padding: 10px;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+
+}
+li {
+    color: blue;
+}
+
+li.common_title {
+    color: blue;
+}
+
+.common_title {
+    color: red;
+}
+
+#test1_1{
+    color: aqua;
+}
