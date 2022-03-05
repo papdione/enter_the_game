@@ -5,29 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ma page </title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="style1.css">
 
     </head>
-    <body>
+    <body id="home">
         <nav>
             <img src="ressources/img/Netflix_Logo_RGB.png" alt="">
         </nav>
         <div class="content">
+            <div class="row">
+
+                <form action="profile.html"> 
+                    <h2>Identification</h2>
+                    <input type="email" placeholder="entrez votre e-mail">
+                    <input type="password" placeholder="entrez votre mot de passe">
+                    <input type="submit" value="connexion">
+                    <p>
+                        <input type="checkbox" id="save">
+                        <label for="save" >Se souvenir de moi</label>
+                    </p>
+                    <p>
+                        Première visite sur Netflix ? <a href="#"> Inscrivez-vous</a>
+                    </p>
+                </form>
+
+            </div>
             
-            <form>
-                <h2>Identification</h2>
-                <input type="email" placeholder="entrez votre e-mail">
-                <input type="password" placeholder="entrez votre mot de passe">
-                <input type="submit" value="connexion">
-                <p>
-                    <input type="checkbox" id="save">
-                    <label for="save" >Se souvenir de moi</label>
-                </p>
-                <p>
-                    Première visite sur Netflix ? <a href="#"> Inscrivez-vous</a>
-                </p>
-            </form>
 
         </div>
         
